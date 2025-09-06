@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bolder;
+        }
+        a:visited{
+            color: rgb(0, 232, 66);
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        a:active{
+            color: blue;
+        }
+        a::after{
+            content: " (clique aqui)";
+            font-size: 0.8em;
+            color: gray;
+        }
+        a.especial::after{
+            content: " (link especial)";
+            font-size: 0.8em;
+            color: orange;
+        }
+        ul > li{
+            display: inline-block;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/" target="_blank">Youtube</a></li>
+        <li><a href="https://www.facebook.com/?locale=pt_BR" target="_blank" class="especial">Facebook</a></li>
+        <li><a href="https://github.com/gustavoguanabara" target="_blank">github</a></li>
+    </ul>
+</body>
+</html>

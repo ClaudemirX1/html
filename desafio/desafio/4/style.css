@@ -1,0 +1,171 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "site";
+    src: url(fontes/idroid.otf) format("opentype");
+}
+
+body {
+    background-color: #E6F2FF; /* fundo azul clarinho */
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #3DDC84; /* verde Android */
+    padding: 20px;
+}
+
+#titulo {
+    text-align: center;
+    color: #104829; /* verde escuro */
+    font-size: 25px;
+}
+
+#p01 {
+    text-align: center;
+    color: #0B3D91; /* azul escuro */
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 15px 0 0 0;
+    display: inline-flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #0B3D91; /* azul escuro */
+    padding: 8px 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #E6F2FF; /* fundo claro */
+    background-color: #36B2FF; /* azul claro hover */
+}
+
+/* Main */
+h1, h2 {
+    font-family: "site";
+    padding-left: 10px;
+}
+
+h1 {
+    color: #104829; /* verde escuro */
+}
+
+h2 {
+    color: #1A936F; /* verde médio */
+    background: linear-gradient(to right, #36B2FF, transparent); /* leve gradiente azul */
+}
+
+p {
+    text-indent: 15px;
+    text-align: justify;
+    color: #0B3D91; /* azul escuro */
+}
+
+.link {
+    background-color: #36B2FF; /* azul claro */
+    color: #E6F2FF; /* branco suave */
+    text-decoration: none;
+    padding: 2px 5px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.link:hover {
+    background-color: #0B3D91; /* azul escuro hover */
+    color: #E6F2FF;
+}
+
+figure {
+    margin: 20px 0;
+    text-align: center;
+}
+
+figcaption {
+    text-align: justify;
+    text-indent: 25px;
+    color: #0B3D91; /* azul escuro */
+}
+
+.foto1 {
+    max-width: 100%;
+    height: auto;
+}
+
+#foto2 {
+    display: block;
+    margin: 10px auto;
+    max-width: 30%;
+}
+
+main {
+    background-color: #FFFFFF; /* branco */
+    margin: 0 30px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Article */
+article iframe {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    aspect-ratio: 16/9;
+    max-width: 560px;
+    border: 2px solid #3DDC84; /* contorno verde Android */
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #3DDC84; /* verde Android */
+    padding-top: 10px;
+}
+
+.footer-content {
+    background-color: #E6F2FF; /* fundo azul clarinho */
+    margin: 20px 30px 0 30px;
+    border-radius: 20px;
+    padding-bottom: 5px;
+}
+
+h3 {
+    background-color: #0B3D91; /* azul escuro */
+    color: #E6F2FF;
+    padding: 10px;
+    border-radius: 20px 20px 0 0;
+}
+
+.footer-text {
+    padding: 0 10px;
+    color: #0B3D91; /* azul escuro */
+}
+
+.footer-list {
+    padding-left: 10px;
+    columns: 2;
+    list-style: none;
+    color: #0B3D91; /* azul escuro */
+}
+
+.doce {
+    text-decoration: underline;
+}
+
+.footer-extra {
+    display: block;
+    background-color: #104829; /* verde escuro */
+    color: #E6F2FF; /* branco suave */
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 5px;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>medias em HTML</title>
+</head>
+<body>
+    <h1>Imagems dinamica</h1>
+    <p>tente abrir esse site em um celular ou tablet</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/imagem.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="img/imagem2.png" type="image/png">
+        <img src="img/Sem título.png" alt="imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo audio</h1>
+    <p>No html5 voce tbm pode reproduzir audio</p>
+    <audio src="midia/2d-otamatone-music-173253.mp3" controls autoplay></audio>
+    <audio preload="auto" autoplay controls loop>
+        <source src="midia/2d-otamatone-music-173253.mp3" type="audio/mpeg">
+    </audio>
+
+</body>
+</html>
